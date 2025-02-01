@@ -1,59 +1,98 @@
-    /* Quiz */
-    .quiz-container {
-      padding: 20px;
-    }
-    .score {
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
-    .question {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    .option-button {
-      display: block;
-      margin-top: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-      cursor: pointer;
-    }
-    .option-button.selected {
-      background-color: #cce7ff;
-    }
-    .next-button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #28a745;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+/* Quiz */
+.quiz-container {
+  padding: 20px;
+  background-color: #F0F4FF; /* Light Blue */
+  color: #1A202C; /* Dark Text for contrast */
+  border-radius: 8px;
+}
 
-    /* result */
-        .result-container {
-          padding: 20px;
-          text-align: center;
-        }
-        .result-title {
-          font-size: 24px;
-          font-weight: bold;
-        }
-        .result-score {
-          margin-top: 15px;
-          font-size: 18px;
-        }
-        .bold {
-          font-weight: bold;
-        }
-        .restart-button {
-          margin-top: 20px;
-          padding: 10px 15px;
-          background-color: #007bff;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-        }
-   
+.score {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #F9A826; /* Golden Yellow for Score */
+  font-weight: bold;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1A202C; /* Dark Text */
+}
+
+.option-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #D1D5DB; /* Light Gray Border */
+  background-color: #F9FAFB; /* Light Gray */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #F9A826; /* Golden Yellow on hover */
+}
+
+.option-button.selected {
+  background-color: #68D391; /* Light Green when selected */
+  border: 2px solid #68D391; /* Green border when selected */
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #38A169; /* Soft Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.next-button:hover {
+  background-color: #2F855A; /* Darker Green on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Result */
+.result-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #F0F4FF; /* Light Blue */
+  color: #1A202C; /* Dark Text */
+  border-radius: 8px;
+}
+
+.result-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9A826; /* Golden Yellow */
+}
+
+.result-score {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #1A202C; /* Dark Text */
+}
+
+.bold {
+  font-weight: bold;
+  color: #38A169; /* Soft Green for important text */
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #F9A826; /* Golden Yellow */
+  color: #1A202C; /* Dark Text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+  background-color: #38A169; /* Soft Green on hover */
+}
