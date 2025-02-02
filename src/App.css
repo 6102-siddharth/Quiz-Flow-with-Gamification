@@ -2,7 +2,7 @@
 .quiz-container {
   padding: 20px;
   background-color: #F0F4FF; /* Light Blue */
-  color: #1A202C; /* Dark Text for contrast */
+  color: #1A202C;
   border-radius: 8px;
 }
 
@@ -16,15 +16,15 @@
 .question {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #1A202C; /* Dark Text */
+  color: #1A202C;
 }
 
 .option-button {
   display: block;
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #D1D5DB; /* Light Gray Border */
-  background-color: #F9FAFB; /* Light Gray */
+  border: 1px solid #D1D5DB; 
+  background-color: #F9FAFB; 
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -35,14 +35,14 @@
 }
 
 .option-button.selected {
-  background-color: #68D391; /* Light Green when selected */
-  border: 2px solid #68D391; /* Green border when selected */
+  background-color: #68D391; 
+  border: 2px solid #68D391; 
 }
 
 .next-button {
   margin-top: 20px;
   padding: 12px 25px;
-  background-color: #38A169; /* Soft Green */
+  background-color: #38A169; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -52,8 +52,8 @@
 }
 
 .next-button:hover {
-  background-color: #2F855A; /* Darker Green on hover */
-  transform: scale(1.05); /* Slight scale effect on hover */
+  background-color: #2F855A; 
+  transform: scale(1.05); 
 }
 
 /* Result */
@@ -61,7 +61,7 @@
   padding: 20px;
   text-align: center;
   background-color: #F0F4FF; /* Light Blue */
-  color: #1A202C; /* Dark Text */
+  color: #1A202C;
   border-radius: 8px;
 }
 
@@ -74,19 +74,19 @@
 .result-score {
   margin-top: 15px;
   font-size: 18px;
-  color: #1A202C; /* Dark Text */
+  color: #1A202C; 
 }
 
 .bold {
   font-weight: bold;
-  color: #38A169; /* Soft Green for important text */
+  color: #38A169; 
 }
 
 .restart-button {
   margin-top: 20px;
   padding: 10px 15px;
-  background-color: #F9A826; /* Golden Yellow */
-  color: #1A202C; /* Dark Text */
+  background-color: #F9A826; 
+  color: #1A202C; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -94,5 +94,5 @@
 }
 
 .restart-button:hover {
-  background-color: #38A169; /* Soft Green on hover */
+  background-color: #38A169; 
 }
